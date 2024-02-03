@@ -1,0 +1,306 @@
+*{
+	margin: 0;
+}
+
+html {
+    	width: 100%;
+    	height: 100%;
+}
+
+body {
+    	width: 100%;
+    	height: 100%;
+	font-family: "Lucida Console", "Courier New", monospace;
+	font-size: 20px;
+}
+
+#top-container{
+    	width: 100%;
+    	height: 10%;
+}
+
+#top-wrapper{
+    	width: 100%;
+    	height:10%;
+	position: absolute;
+	top:0;
+}
+
+.back_button{
+	display: flex;
+	position: absolute;
+	align-items: center;
+  	justify-content: center;
+	padding:10%;
+	top:10%;
+	left:0;
+	background-color:white;
+	border:none;
+}
+
+/*
+*.back_button:hover{
+*	background-color:gray;
+*}
+*/
+
+.back_icon-layer{
+	width:100%;
+	hight:100%;
+	position:absolute;
+}
+
+.back_icon-wrapper > img{
+	width:40%;
+	height:auto;
+}
+
+
+.payment_cards-layer{
+	width: 100%;
+    	height: 100%;
+    	position: absolute;
+    	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.payment_cards-wrapper > p{
+	width:100%;
+}
+
+.menu_button{
+	display: flex;
+	position: absolute;
+	align-items: center;
+  	justify-content: center;
+	padding:10%;
+	top:10%;
+	right:0;
+	background-color:white;
+	border:none;
+}
+
+/*
+*.menu_button:hover{
+*	background-color:gray;
+*}
+*/
+
+.menu_icon-layer{
+	width:100%;
+	hight:100%;
+	position:absolute;
+}
+
+.menu_icon-wrapper > img{
+	width:40%;
+	height:auto;
+}
+
+#card_pic-container{
+    	width: 100%;
+   	height: 30%;
+	padding-top:5%;
+	padding-bottom:5%;
+	padding-left:7%;
+	padding-right:7%;
+
+}
+
+#card_pic-wrapper{
+    width: 86%;
+    height: 20%;
+	padding-top:5%;
+	background-image: linear-gradient(to right, lightgreen, lightblue);
+   	border-radius: 8%;
+	position: absolute;
+}
+
+.card_number-layer{
+    width: 35%;
+    height: 20%;
+	display: flex;
+	position: absolute;
+}
+
+.card_number-wrapper > p{
+	width:100%;
+	height:100%;
+	font-size:80%;
+	display: flex;
+	position: absolute;
+	left:10%;
+}
+
+.money_acc-layer{
+	width: 35%;
+    height: 20%;
+	display: flex;
+	position: absolute;
+	bottom:10%;
+	left:10%;
+}
+
+.money_acc-wrapper > p{
+	width:100%;
+	height:100%;
+	font-size:120%;
+}
+
+.expired_date-layer{
+	width: 20%;
+    height: 20%;
+	display: flex;
+	position: absolute;
+	right:5%;
+}
+
+.expired_date-wrapper > p{
+	width:100%;
+	height:100%;
+	font-size:80%;
+}
+
+#card_info-container{
+	width:100%;
+	height:15%;
+}
+
+#card_info-wrapper{
+	width:100%;
+	height:100%;
+}
+
+.card_num-layer{
+	width:100%;
+	height:20%;
+}
+
+.card_num-wrapper > p{
+	width:100%;
+	height:100%;
+	font-size:85%;
+	display: flex;
+	position: absolute;
+	left:10%;
+}
+
+input[type=number] {
+  width: 70%;
+  height:5%;
+	display:flex;
+	position:absolute;
+	left:10%;
+}
+
+#card_date-container{
+	width:100%;
+	height:20%;
+}
+
+#card_date-wrapper{
+	width:100%;
+	height:100%;
+}
+
+.expired_month-layer{
+	width:35%;
+	height:100%;
+}
+
+.expired_month-wrapper > p{
+	width:100%;
+	height:100%;
+	font-size:85%;
+	display: flex;
+	position: absolute;
+	left:10%;
+	top:59%;
+}
+
+
+
+.expired_year-layer{
+	width:30%;
+	height:100%;
+}
+
+.expired_year-wrapper > p{
+	width:100%;
+	height:100%;
+	font-size:85%;
+	display: flex;
+	position: absolute;
+	left:40%;
+	top:59%;
+}
+
+.cvv-layer{
+	width:30%;
+	height:100%;
+}
+
+.cvv-wrapper > p{
+	width:100%;
+	height:100%;
+	font-size:85%;
+	display: flex;
+	position: absolute;
+	left:70%;
+	top:59%;
+}
+select[id=month] {
+	width: 20%;
+	height:5%;
+	border-radius: 10%;
+	font-size:100%;
+	display:flex;
+	position:absolute;
+	top:62%;
+	left:10%
+}
+
+select[id=year] {
+	width: 20%;
+	height:5%;
+	border-radius: 10%;
+	font-size:100%;
+	display:flex;
+	position:absolute;
+	top:62%;
+	left:40%
+}
+
+input[id=cvv] {
+	width: 20%;
+	height:4%;
+	border-radius: 10%;
+	display:flex;
+	position:absolute;
+	top:62%;
+	left:70%
+}
+
+.save_button{
+	width:70%;
+	height:8%;
+	display: flex;
+	position: absolute;
+	align-items: center;
+  	justify-content: center;
+	font-size: 125%;
+	top:85%;
+	background-image: linear-gradient(to right, lightgreen, lightblue);
+	border:none;
+}
+
+.save_button-layer{
+	width:100%;
+	height:20%;
+}
+
+.save_button-wrapper{
+	width:100%;
+	height:20%;
+	padding-left:15%;
+}
